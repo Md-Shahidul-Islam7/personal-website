@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  font-family: "Rajdhani", Helvetica, sans-serif;
+}
+h1 {
+  font-size: 50px;
+  color: tomato;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+
+a {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 7px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+}
+#top-banner {
+  height: 600px;
+  background-image: url("images/header-bg.png");
+  background-size: 100%;
+  background-position: 90%;
+}
+#biography {
+  height: 800px;
+  background-image: url("images/biography-bg.png");
+  background-size: 100%;
+  background-position: 100%;
+  margin-top: 100px;
+}
+.half-width {
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  padding-left: 5%;
+}
+.top-img-position {
+  width: 100%;
+  position: relative;
+  top: 50px;
+  right: 200px;
+}
+
+.top-text-position {
+  position: relative;
+  top: 110px;
+  left: 00px;
+}
+.bio-img-position {
+  width: 100%;
+  position: relative;
+  top: 100px;
+  right: 200;
+}
+.bio-text-position {
+  position: relative;
+  top: 250px;
+  right: 100px;
+}
+.my-work {
+  width: 28%;
+  float: left;
+  margin-left: 2%;
+  padding-left: 3%;
+}
+img {
+  width: 100%;
+}
+#my-latest-work {
+  height: 500px;
+  background-image: url("images/latest-work-bg.png");
+  background-size: 100%;
+  background-position: 90%;
+  position: relative;
+  top: 75px;
+}
+#latest-work-text {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+#client-comment {
+  height: 600px;
+  background-image: url("images/footer-bg.png");
+  background-size: 100%;
+  background-position: 80%;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+#client-comment h2 {
+  font-size: 50px;
+}
+#client-comment h3 {
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+}
+#client-comment h4 {
+  position: relative;
+  top: 30px;
+  font-weight: normal;
+}
+#pea {
+  text-align: center;
+}
+#pea p {
+  height: 100px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+#my-email {
+  width: 800px;
+  height: 120px;
+  background-color: tomato;
+  border-radius: 10px;
+  margin: 50px auto;
+  text-align: center;
+}
+#my-email h4 {
+  margin: 0 auto;
+  color: whitesmoke;
+  font-size: 14px;
+  position: relative;
+  top: 30%;
+}
+#my-email h3 {
+  margin: 0 auto;
+  color: whitesmoke;
+  font-size: 30px;
+  position: relative;
+  top: 30%;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
